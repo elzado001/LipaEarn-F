@@ -1,0 +1,156 @@
+body{
+    background-color: white;
+    font-family:sans-serif;
+    margin: 0;
+    padding: 2px;
+}
+header{
+    background-color:blue;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    padding: 5px;
+}
+nav{
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding: 15px;
+    
+    border-radius: 15%;
+    
+    
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 2px;
+    }
+.button{
+    background-color: white;
+    color: blue;
+    padding: 10px;
+    border-radius: 20%;
+    border-color: brown;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-size: large;
+    border-radius: 20%;
+}
+.headings{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:xx-large;
+    color:blue;
+    padding-top: 15px;
+}
+.aheading{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    color: red;
+}
+.bheading{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    color: blue;}
+.abutton{
+    background-color: rgb(255, 255, 0);
+    color: rgba(255, 255, 255, 0.726);
+    padding: 10px;
+    border-radius: 10%;
+    border-color: black;
+    margin-left: 80px;
+    margin-top: 30px;
+    font-size: x-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.intro{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    padding-left: 15%;
+    padding-right:15%;
+    text-align: center;
+    font-size:large;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: tomato;
+  
+}
+.p{
+    text-align: center;
+}
+.numbers{
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:x-large;
+    background-color: rgba(0, 255, 255, 0.274);
+    color: black;
+}
+.rep{
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    background-color: blueviolet;
+}
+.faq{
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:large;
+    background-color: grey;
+}
+@media screen and (max-width: 600px) {
+nav ul {
+    display: block;
+    margin: 2px;
+}
+.button {
+    margin: 2px;
+    padding: 5px;
+    font-size: medium;
+}
+header {
+    font-size: medium;
+    padding: 10px;
+}
+.headings {
+    font-size: large;
+}
+.aheading, .bheading {
+    font-size: medium;
+}
+.abutton {
+    font-size: large;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.numbers {
+    font-size: medium;
+    padding: 10px;
+}
+.rep, .faq {
+    font-size: medium;
+    padding: 10px;
+}
+button {
+    font-size: large;
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+}
+.image {
+    float: left; /* Align the image to the left */
+    margin-right: 15px; /* Add space between the image and text */
+  }
+  .image2 {
+    float: right; /* Align the image to the left */
+    margin-left: 115px; /* Add space between the image and text */
+  }
+ 
+  .button4:hover {background-color: greenyellow;}
